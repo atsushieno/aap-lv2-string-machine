@@ -26,7 +26,7 @@ dependencies/string-machine-deps/dist/stamp: android-string-machine-binaries.zip
 	touch dependencies/string-machine-deps/dist/stamp
 
 android-string-machine-binaries.zip:
-	wget https://github.com/atsushieno/android-native-audio-builders/releases/download/r8.4/android-string-machine-binaries.zip
+	wget https://github.com/atsushieno/android-native-audio-builders/releases/download/r10/android-string-machine-binaries.zip
 
 # Run importers
 
