@@ -1,0 +1,2 @@
+rootProject.name = 'aap-lv2-string-machine'
+include ':app'
