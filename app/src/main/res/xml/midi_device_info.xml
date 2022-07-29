@@ -1,0 +1,5 @@
+<devices>
+    <device name="String Machine" manufacturer="androidaudioplugin.org" product="aap-string-machine">
+        <input-port name="input" />
+    </device>
+</devices>
