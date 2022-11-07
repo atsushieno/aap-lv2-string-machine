@@ -4,12 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk = 32
+    compileSdk = 33
     defaultConfig {
         applicationId "org.androidaudioplugin.aap_string_machine"
-        // FIXME: this should be 29, but it is TEMPORARILY disabled until this Android SDK/NDK issue https://issuetracker.google.com/issues/219987524 gets resolved.
-        minSdk = 30
-        targetSdk = 32
+        minSdk = 29
+        targetSdk = 33
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         externalNativeBuild {
@@ -49,7 +48,7 @@ android {
 dependencies {
     implementation "org.androidaudioplugin:androidaudioplugin:$aap_version"
     implementation "org.androidaudioplugin:androidaudioplugin-midi-device-service:$aap_version"
-    implementation "org.androidaudioplugin:androidaudioplugin-lv2:$aap_lv2_version"
+    implementation project(":androidaudioplugin-lv2")//"org.androidaudioplugin:androidaudioplugin-lv2:$aap_lv2_version"
     implementation "org.androidaudioplugin:androidaudioplugin-ui-compose:$aap_version"
 
     testImplementation 'junit:junit:4.13.2'
