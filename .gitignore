@@ -5,13 +5,6 @@ local.properties
 .DS_Store
 /build
 /captures
-.externalNativeBuild
 .cxx
 *.so
-*.lv2
 build
-symlinked-dist
-android-string-machine-binaries.zip
-aap_metadata.xml
-dependencies
-

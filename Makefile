@@ -6,40 +6,27 @@ all: build-all
 
 build-all: \
 	build-aap-lv2 \
-	get-string-machine-deps \
-	import-string-machine-deps \
-	build-java
+	patch-string-machine \
+	build-agp
 
 build-aap-lv2:
 	cd $(AAP_LV2_DIR) && make
 
-## downloads
-
-get-string-machine-deps: dependencies/string-machine-deps/dist/stamp
-
-dependencies/string-machine-deps/dist/stamp: android-string-machine-binaries.zip
-	mkdir -p dependencies/string-machine-deps
-	unzip android-string-machine-binaries -d dependencies/string-machine-deps/
-	if [ ! -d app/src/main/cpp/symlinked-dist ] ; then \
-		ln -s $(PWD)/dependencies/string-machine-deps/dist app/src/main/cpp/symlinked-dist ; \
+patch-string-machine: external/string-machine/patch.stamp
+	if [ ! -L app/src/main/cpp ] ; then \
+	cd app/src/main && ln -s ../../../external/string-machine cpp ; \
+	else echo "symlink already exists" ; \
 	fi
-	touch dependencies/string-machine-deps/dist/stamp
 
-android-string-machine-binaries.zip:
-	wget https://github.com/atsushieno/android-native-audio-builders/releases/download/r10/android-string-machine-binaries.zip
+external/string-machine/patch.stamp:
+	cd external/string-machine && \
+		patch -i ../../aap-support.patch -p1 && \
+		touch patch.stamp || exit 1
 
-# Run importers
-
-import-string-machine-deps:
-	./import-string-machine-deps.sh
-
-## Build utility
-
-build-java:
+build-agp:
 	ANDROID_SDK_ROOT=$(ANDROID_SDK_ROOT) ./gradlew build
  
-## update metadata
-
+# Make sure to have a look at README.md and understand you need up-to-date string-machine.lv2 under app/src/main/assets.
 update-metadata:
 	cd external/aap-lv2 && make build-lv2-importer
 	external/aap-lv2/tools/aap-import-lv2-metadata/build/aap-import-lv2-metadata app/src/main/assets/lv2 app/src/main/res/xml

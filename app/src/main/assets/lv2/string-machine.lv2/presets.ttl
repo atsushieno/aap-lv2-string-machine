@@ -1,0 +1,2246 @@
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix pset:  <http://lv2plug.in/ns/ext/presets#> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset001>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 7.716540 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 7.716540 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.250000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 5.200000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 12.200000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 16.400000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -0.400000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 24.799999 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 6.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.193900 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 5.787400 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 30.708700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.583465 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 89.763802 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset002>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 7.716540 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 7.716540 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.250000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 5.200000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 12.200000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 16.400000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -0.400000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 24.799999 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 6.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.193900 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 5.787400 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 30.708700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.583465 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 89.763802 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset003>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value -60.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset004>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -10.866100 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset005>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -10.866100 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset006>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 1.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -10.236200 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset007>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 1.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -10.866100 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset008>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -10.236200 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset009>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -10.866100 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset010>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -10.866100 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset011>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 20.315001 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -10.236200 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset012>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 10.866100 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 0.944882 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 100.156998 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.088661 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.481969 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 50.393700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 4.984250 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 51.181099 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 50.393700 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset013>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 0.944882 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 20.787399 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 0.157480 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.088661 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.481969 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 50.393700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 4.984250 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 51.181099 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 50.393700 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset014>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 33.543301 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -7.401570 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 60.472401 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 10.866100 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 0.787402 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -10.551200 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -0.787402 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.088661 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.481969 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 50.393700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 6.023620 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 30.708700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.602362 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 60.629902 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset015>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 33.543301 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value -7.401570 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 22.992100 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 38.425201 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 27.401600 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 54.960602 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -0.787402 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -3.307090 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -1.574800 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.088661 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 10.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.481969 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 50.393700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 6.023620 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 30.708700 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.602362 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 60.629902 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value -0.157480 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset016>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 7.716540 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 5.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 14.173200 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -20.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value -60.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 3.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.300000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value 10.551200 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset017>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 0.692913 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 37.322800 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 5.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 102.362000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 107.874001 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 120.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 120.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 114.487999 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 19.370100 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -7.559060 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value -60.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 9.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.900000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 0 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value 10.551200 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset018>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 1.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 42.362202 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 36.692902 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 0.100000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 58.267700 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 62.677200 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 63.779499 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 88.031502 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 40.629902 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 17.480301 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -12.913400 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -17.480301 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.167323 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 0.324646 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value -38.740200 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.245984 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 9.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.900000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 99.212601 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value 0.472441 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset019>
+    lv2:port [
+        lv2:symbol "osc_detune" ;
+        pset:value 1.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_upper" ;
+        pset:value 60.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_hp_cutoff_lower" ;
+        pset:value 38.582699 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_depth" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_pwm_frequency" ;
+        pset:value 5.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_upper" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "osc_enhance_lower" ;
+        pset:value 0.000000 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_upper" ;
+        pset:value 49.448799 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_upper" ;
+        pset:value 41.732300 ;
+    ] ,
+    [
+        lv2:symbol "flt_lp_cutoff_lower" ;
+        pset:value 50.551201 ;
+    ] ,
+    [
+        lv2:symbol "flt_hp_cutoff_lower" ;
+        pset:value 47.244099 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_cutoff_eq" ;
+        pset:value 30.708700 ;
+    ] ,
+    [
+        lv2:symbol "flt_hs_boost_eq" ;
+        pset:value 2.677170 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_upper" ;
+        pset:value -10.078700 ;
+    ] ,
+    [
+        lv2:symbol "mix_gain_lower" ;
+        pset:value -12.755900 ;
+    ] ,
+    [
+        lv2:symbol "env_attack" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_hold" ;
+        pset:value 0.010000 ;
+    ] ,
+    [
+        lv2:symbol "env_decay" ;
+        pset:value 0.245984 ;
+    ] ,
+    [
+        lv2:symbol "env_sustain" ;
+        pset:value -60.000000 ;
+    ] ,
+    [
+        lv2:symbol "env_release" ;
+        pset:value 0.167323 ;
+    ] ,
+    [
+        lv2:symbol "cho_enabled" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate1" ;
+        pset:value 9.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth1" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_rate2" ;
+        pset:value 0.900000 ;
+    ] ,
+    [
+        lv2:symbol "cho_depth2" ;
+        pset:value 100.000000 ;
+    ] ,
+    [
+        lv2:symbol "cho_model" ;
+        pset:value 1 ;
+    ] ,
+    [
+        lv2:symbol "master_gain" ;
+        pset:value 15.590600 ;
+    ] ,
+    [
+        lv2:symbol "polyphony" ;
+        pset:value 16 ;
+    ] .
+
+

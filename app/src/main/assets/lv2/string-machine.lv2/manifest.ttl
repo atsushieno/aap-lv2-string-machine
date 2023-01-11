@@ -1,0 +1,130 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2>
+    a lv2:Plugin ;
+    lv2:binary <string-machine_dsp.so> ;
+    rdfs:seeAlso <string-machine_dsp.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#UI>
+    a ui:X11UI ;
+    ui:binary <string-machine_ui.so> ;
+    rdfs:seeAlso <string-machine_ui.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset001>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "001-String Short 1 BB" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset002>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "002-String Short 2 Br" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset003>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "003-Default [All in left]" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset004>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "004-Plain 8' 1" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset005>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "005-Plain 4' 1" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset006>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "006-Moskito 4'" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset007>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "007-Moskito 8'" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset008>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "008-Plain 4' 2" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset009>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "009-Plain 8' 2" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset010>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "010-Slow 8' 1" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset011>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "011-Slow 4' 1" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset012>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "012-Soft 4' Mid" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset013>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "013-Soft 8' Mid" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset014>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "014-Mix No Mids" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset015>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "015-Full 4'+8' 1" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset016>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "016-Kick (-2 oct)" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset017>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "017-Hat-ish Hit" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset018>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "018-Shaker (Mid C)" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<http://jpcima.sdf1.org/lv2/string-machine-mk2#preset019>
+    a pset:Preset ;
+    lv2:appliesTo <http://jpcima.sdf1.org/lv2/string-machine-mk2> ;
+    rdfs:label "019-Snare-ish (3-4 keys-at-once)" ;
+    rdfs:seeAlso <presets.ttl> .
+
+

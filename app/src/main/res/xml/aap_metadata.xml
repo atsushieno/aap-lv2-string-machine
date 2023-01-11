@@ -1,0 +1,110 @@
+<plugins xmlns="urn:org.androidaudioplugin.core" xmlns:pp="urn:org.androidaudioplugin.port">
+  <plugin backend="LV2" name="String machine chorus" category="Effect" author="Jean Pierre Cimalando" manufacturer="" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" assets="/lv2/string-machine-chorus.lv2/">
+    <parameters xmlns='urn://androidaudioplugin.org/extensions/parameters'>
+      <parameter id="3" name="Enabled" default="1"   type="boolean">
+        <enumeration label="true" value="1" />
+        <enumeration label="false" value="0" />
+      </parameter>
+      <parameter id="4" name="Chorus global depth" default="100.000000" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="5" name="Chorus rate 1" default="5.834600" minimum="3.000000" maximum="9.000000"  />
+      <parameter id="6" name="Chorus depth 1" default="30.709999" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="7" name="Chorus rate 2" default="0.583500" minimum="0.300000" maximum="0.900000"  />
+      <parameter id="8" name="Chorus depth 2" default="90.550003" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="9" name="Chorus model" default="1" minimum="0" maximum="1" type="integer">
+        <enumeration label="Digital delay" value="0" />
+        <enumeration label="Analog bucket-brigade delay" value="1" />
+      </parameter>
+      <parameter id="10" name="Wet gain" default="-6.000000" minimum="-60.000000" maximum="20.000000"  />
+      <parameter id="11" name="Dry gain" default="-60.000000" minimum="-60.000000" maximum="20.000000"  />
+    </parameters>
+    <ports>
+      <port direction='input' content='audio' name='Audio Input 1' />
+      <port direction='output' content='audio' name='Audio Output 1' />
+      <port direction='output' content='audio' name='Audio Output 2' />
+      <port direction='input' content='midi2' name='MIDI In' />
+      <port direction='output' content='midi2' name='MIDI Out' />
+    </ports>
+  </plugin>
+  <plugin backend="LV2" name="String machine stereo chorus" category="Effect" author="Jean Pierre Cimalando" manufacturer="" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus-stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" assets="/lv2/string-machine-chorus-stereo.lv2/">
+    <parameters xmlns='urn://androidaudioplugin.org/extensions/parameters'>
+      <parameter id="4" name="Enabled" default="1"   type="boolean">
+        <enumeration label="true" value="1" />
+        <enumeration label="false" value="0" />
+      </parameter>
+      <parameter id="5" name="Chorus global depth" default="100.000000" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="6" name="Chorus rate 1" default="5.834600" minimum="3.000000" maximum="9.000000"  />
+      <parameter id="7" name="Chorus depth 1" default="30.709999" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="8" name="Chorus rate 2" default="0.583500" minimum="0.300000" maximum="0.900000"  />
+      <parameter id="9" name="Chorus depth 2" default="90.550003" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="10" name="Chorus model" default="1" minimum="0" maximum="1" type="integer">
+        <enumeration label="Digital delay" value="0" />
+        <enumeration label="Analog bucket-brigade delay" value="1" />
+      </parameter>
+      <parameter id="11" name="Wet gain" default="-6.000000" minimum="-60.000000" maximum="20.000000"  />
+      <parameter id="12" name="Dry gain" default="-60.000000" minimum="-60.000000" maximum="20.000000"  />
+    </parameters>
+    <ports>
+      <port direction='input' content='audio' name='Audio Input 1' />
+      <port direction='input' content='audio' name='Audio Input 2' />
+      <port direction='output' content='audio' name='Audio Output 1' />
+      <port direction='output' content='audio' name='Audio Output 2' />
+      <port direction='input' content='midi2' name='MIDI In' />
+      <port direction='output' content='midi2' name='MIDI Out' />
+    </ports>
+  </plugin>
+  <plugin backend="LV2" name="String machine" category="Instrument" author="Jean Pierre Cimalando" manufacturer="" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-mk2" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" assets="/lv2/string-machine.lv2/">
+    <extensions>
+      <extension uri='urn://androidaudioplugin.org/extensions/presets/v1' />
+    </extensions>
+    <parameters xmlns='urn://androidaudioplugin.org/extensions/parameters'>
+      <parameter id="2" name="Events Input"     />
+      <parameter id="3" name="Oscillator detune" default="0.001600" minimum="0.000000" maximum="1.000000"  />
+      <parameter id="4" name="Oscillator HP Cutoff 4_" default="8.000000" minimum="-20.000000" maximum="60.000000"  />
+      <parameter id="5" name="Oscillator HP Cutoff 8_" default="8.000000" minimum="-20.000000" maximum="60.000000"  />
+      <parameter id="6" name="Oscillator PWM Depth" default="0.000000" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="7" name="Oscillator PWM Frequency" default="0.250000" minimum="0.100000" maximum="5.000000"  />
+      <parameter id="8" name="Oscillator enhance 4_" default="0.000000" minimum="0.000000" maximum="0.500000"  />
+      <parameter id="9" name="Oscillator enhance 8_" default="0.000000" minimum="0.000000" maximum="0.500000"  />
+      <parameter id="10" name="Filters LP Cutoff 4_" default="5.200000" minimum="-20.000000" maximum="120.000000"  />
+      <parameter id="11" name="Filters HP Cutoff 4_" default="12.200000" minimum="-20.000000" maximum="120.000000"  />
+      <parameter id="12" name="Filters LP Cutoff 8_" default="16.400000" minimum="-20.000000" maximum="120.000000"  />
+      <parameter id="13" name="Filters HP Cutoff 8_" default="-0.400000" minimum="-20.000000" maximum="120.000000"  />
+      <parameter id="14" name="Filters HS Cutoff 4_" default="24.799999" minimum="-20.000000" maximum="120.000000"  />
+      <parameter id="15" name="Filters HS Boost 4_" default="6.000000" minimum="-20.000000" maximum="20.000000"  />
+      <parameter id="16" name="Mix Gain 4_" default="0.000000" minimum="-20.000000" maximum="0.000000"  />
+      <parameter id="17" name="Mix Gain 8_" default="0.000000" minimum="-20.000000" maximum="0.000000"  />
+      <parameter id="18" name="Envelope attack" default="0.193900" minimum="0.010000" maximum="10.000000"  />
+      <parameter id="19" name="Envelope hold" default="0.010000" minimum="0.010000" maximum="10.000000"  />
+      <parameter id="20" name="Envelope decay" default="10.000000" minimum="0.010000" maximum="10.000000"  />
+      <parameter id="21" name="Envelope sustain" default="0.000000" minimum="-60.000000" maximum="0.000000"  />
+      <parameter id="22" name="Envelope release" default="3.000000" minimum="0.010000" maximum="10.000000"  />
+      <parameter id="23" name="Chorus enabled" default="1"   type="boolean">
+        <enumeration label="true" value="1" />
+        <enumeration label="false" value="0" />
+      </parameter>
+      <parameter id="24" name="Chorus global depth" default="100.000000" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="25" name="Chorus rate 1" default="5.834600" minimum="1.000000" maximum="9.000000"  />
+      <parameter id="26" name="Chorus depth 1" default="30.709999" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="27" name="Chorus rate 2" default="0.583500" minimum="0.100000" maximum="0.900000"  />
+      <parameter id="28" name="Chorus depth 2" default="90.550003" minimum="0.000000" maximum="100.000000"  />
+      <parameter id="29" name="Chorus model" default="1" minimum="0" maximum="1" type="integer">
+        <enumeration label="Digital delay" value="0" />
+        <enumeration label="Analog bucket-brigade delay" value="1" />
+      </parameter>
+      <parameter id="30" name="Master Gain" default="3.000000" minimum="-60.000000" maximum="20.000000"  />
+      <parameter id="31" name="Polyphony" default="16" minimum="1" maximum="32" type="integer" />
+      <parameter id="32" name="Oscillator detune 4_"  minimum="-1.000000" maximum="1.000000"  />
+      <parameter id="33" name="Oscillator detune 8_"  minimum="-1.000000" maximum="1.000000"  />
+      <parameter id="34" name="Chorus phase 1"  minimum="0.000000" maximum="6.283185"  />
+      <parameter id="35" name="Chorus phase 2"  minimum="0.000000" maximum="6.283185"  />
+      <parameter id="36" name="Master level 1"  minimum="-100.000000" maximum="100.000000"  />
+      <parameter id="37" name="Master level 2"  minimum="-100.000000" maximum="100.000000"  />
+    </parameters>
+    <ports>
+      <port direction='output' content='audio' name='Audio Output 1' />
+      <port direction='output' content='audio' name='Audio Output 2' />
+      <port direction='input' content='midi2' name='MIDI In' />
+      <port direction='output' content='midi2' name='MIDI Out' />
+    </ports>
+  </plugin>
+</plugins>

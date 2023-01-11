@@ -1,0 +1,56 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index c2f5bbf..1960f7f 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -9,18 +9,18 @@ dpf_add_plugin(string-machine
+   UI_TYPE cairo
+   FILES_DSP
+     "plugins/string-machine/StringMachinePlugin.cpp"
+-  FILES_UI
+-    "plugins/string-machine/StringMachineUI.cpp"
+-    "plugins/string-machine/Artwork.cpp"
+-    "sources/ui/components/KnobSkin.cpp"
+-    "sources/ui/components/SkinSlider.cpp"
+-    "sources/ui/components/SkinToggleButton.cpp"
+-    "sources/ui/components/SkinTriggerButton.cpp"
+-    "sources/ui/components/SkinIndicator.cpp"
+-    "sources/ui/components/PlotView.cpp"
+-    "sources/ui/FontEngine.cpp"
+-    "sources/ui/Fontstash.cpp"
+-    "sources/ui/Cairo++.cpp"
++  #FILES_UI
++  #  "plugins/string-machine/StringMachineUI.cpp"
++  #  "plugins/string-machine/Artwork.cpp"
++  #  "sources/ui/components/KnobSkin.cpp"
++  #  "sources/ui/components/SkinSlider.cpp"
++  #  "sources/ui/components/SkinToggleButton.cpp"
++  #  "sources/ui/components/SkinTriggerButton.cpp"
++  #  "sources/ui/components/SkinIndicator.cpp"
++  #  "sources/ui/components/PlotView.cpp"
++  #  "sources/ui/FontEngine.cpp"
++  #  "sources/ui/Fontstash.cpp"
++  #  "sources/ui/Cairo++.cpp"
+   FILES_COMMON
+     "plugins/string-machine/StringMachineShared.cpp"
+     "plugins/string-machine/StringMachinePresets.cpp"
+Submodule dpf contains modified content
+diff --git a/dpf/cmake/DPF-plugin.cmake b/dpf/cmake/DPF-plugin.cmake
+index 66b69272..c1204d54 100644
+--- a/dpf/cmake/DPF-plugin.cmake
++++ b/dpf/cmake/DPF-plugin.cmake
+@@ -301,6 +301,7 @@ function(dpf__build_lv2 NAME DGL_LIBRARY MONOLITHIC)
+     endif()
+   endif()
+ 
++  if(false) #ANDROID hack
+   dpf__add_lv2_ttl_generator()
+   add_dependencies("${NAME}-lv2" lv2_ttl_generator)
+ 
+@@ -310,6 +311,7 @@ function(dpf__build_lv2 NAME DGL_LIBRARY MONOLITHIC)
+     "$<TARGET_FILE:${NAME}-lv2>"
+     WORKING_DIRECTORY "${PROJECT_BINARY_DIR}/bin/${NAME}.lv2"
+     DEPENDS lv2_ttl_generator)
++  endif() # end of ANDROID hack
+ endfunction()
+ 
+ # dpf__build_vst2

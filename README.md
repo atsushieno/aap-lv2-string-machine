@@ -6,8 +6,17 @@ It is a port of [String-Machine](https://github.com/jpcima/string-machine) to [A
 
 `make` should take care of the builds. See [GitHub Actions script](.github/workflows/actions.yml) for further normative setup.
 
-At this state, it downloads prebuilt string-machine binaries from [android-native-audio-builders](https://github.com/atsushieno/android-native-audio-builders) release artifacts. We are not sure if we change that - DPF is not CMake ready.
+Historically, we downloaded prebuilt string-machine binaries from [android-native-audio-builders](https://github.com/atsushieno/android-native-audio-builders) release artifacts. Now DPF supports CMake so our build is based on CMake script (with some tweaks).
 
+We patch string-machine sources as if it did not support GUI (DGL does not compile on Android). Unlike Makefile, DPF CMake does not seem to support `UI_TYPE` and `CROSS_COMPILING`.
+
+## Important notes on updating string-machine
+
+This build setup involves patching DPF cmake script to explicitly skip lv2-ttl-generator (because it does not compile under cross-compiling environment). If you updated string-machine sources, make sure to build it locally first, copy the `string-machine.lv2` directory to `app/main/assets/lv2`, removing `*.so` files (they are built during app build time by Gradle).
+
+Therefore unlike other LV2 projects, we directly commit string-machine.lv2 content in the source tree for now.
+
+(It may sound awkward, but having to download prebuilt binaries and therefore being unable to debug the sources is way more annoying problem that you would not like to deal with.)
 
 ## Licensing notice
 
