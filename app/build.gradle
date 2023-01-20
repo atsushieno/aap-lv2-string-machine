@@ -6,7 +6,7 @@ plugins {
 android {
     compileSdk = 33
     defaultConfig {
-        applicationId "org.androidaudioplugin.aap_string_machine"
+        applicationId "org.androidaudioplugin.ports.lv2.string_machine"
         minSdk = 29
         targetSdk = 33
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
