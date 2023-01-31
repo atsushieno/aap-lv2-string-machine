@@ -24,7 +24,7 @@ external/string-machine/patch.stamp:
 		touch patch.stamp || exit 1
 
 build-agp:
-	ANDROID_SDK_ROOT=$(ANDROID_SDK_ROOT) ./gradlew build
+	ANDROID_SDK_ROOT=$(ANDROID_SDK_ROOT) ./gradlew build bundle
  
 # Make sure to have a look at README.md and understand you need up-to-date string-machine.lv2 under app/src/main/assets.
 update-metadata:
