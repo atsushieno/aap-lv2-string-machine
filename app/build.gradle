@@ -9,6 +9,7 @@ android {
         applicationId "org.androidaudioplugin.ports.lv2.string_machine"
         minSdk = 29
         targetSdk = 33
+        versionCode 1
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         externalNativeBuild {
