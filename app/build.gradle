@@ -31,24 +31,26 @@ android {
     externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
+            version "3.22.1"
         }
     }
     buildFeatures {
         prefab true
     }
-    aaptOptions {
-        noCompress "sample.wav"
+    packagingOptions{
+        if (enable_asan)
+            jniLibs.useLegacyPackaging = true
     }
 }
 
 dependencies {
-    implementation "org.androidaudioplugin:androidaudioplugin:$aap_version"
-    implementation "org.androidaudioplugin:androidaudioplugin-midi-device-service:$aap_version"
-    implementation "org.androidaudioplugin:androidaudioplugin-lv2:$aap_lv2_version"
-    implementation "org.androidaudioplugin:androidaudioplugin-ui-compose:$aap_version"
+    implementation libs.aap.lv2
+    implementation libs.aap.core
+    implementation libs.aap.midi.device.service
+    implementation libs.aap.ui.compose
 
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
-    androidTestImplementation "org.androidaudioplugin:androidaudioplugin-testing:$aap_version"
+    testImplementation libs.junit
+    androidTestImplementation libs.aap.testing
+    androidTestImplementation libs.test.core
+    androidTestImplementation libs.test.ext.junit
 }
