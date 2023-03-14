@@ -10,6 +10,7 @@ android {
         minSdk = 29
         targetSdk = 33
         versionCode 1
+        versionName libs.versions.aap.lv2.get()
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         externalNativeBuild {
@@ -20,7 +21,7 @@ android {
     }
 
     // see androidaudioplugin/build.gradle for details...
-    ndkVersion "$ndk_version"
+    ndkVersion libs.versions.ndk.get()
 
     buildTypes {
         release {
