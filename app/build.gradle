@@ -32,7 +32,7 @@ android {
     externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
-            version "3.22.1"
+            version libs.versions.cmake.get()
         }
     }
     buildFeatures {
@@ -49,6 +49,7 @@ dependencies {
     implementation libs.aap.core
     implementation libs.aap.midi.device.service
     implementation libs.aap.ui.compose
+    implementation libs.aap.ui.web
 
     testImplementation libs.junit
     androidTestImplementation libs.aap.testing
