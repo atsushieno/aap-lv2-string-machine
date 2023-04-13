@@ -1,10 +1,11 @@
 <plugins xmlns="urn:org.androidaudioplugin.core" xmlns:pp="urn:org.androidaudioplugin.port">
   <plugin backend="LV2" name="String machine chorus" category="Effect" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.web.AudioPluginWebViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v1' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
     </extensions>
     <parameters xmlns='urn://androidaudioplugin.org/extensions/parameters'>
       <parameter id="3" name="Enabled" default="1"   type="boolean">
@@ -17,8 +18,8 @@
       <parameter id="7" name="Chorus rate 2" default="0.583500" minimum="0.300000" maximum="0.900000"  />
       <parameter id="8" name="Chorus depth 2" default="90.550003" minimum="0.000000" maximum="100.000000"  />
       <parameter id="9" name="Chorus model" default="1" minimum="0" maximum="1" type="integer">
-        <enumeration label="Analog bucket-brigade delay" value="1" />
         <enumeration label="Digital delay" value="0" />
+        <enumeration label="Analog bucket-brigade delay" value="1" />
       </parameter>
       <parameter id="10" name="Wet gain" default="-6.000000" minimum="-60.000000" maximum="20.000000"  />
       <parameter id="11" name="Dry gain" default="-60.000000" minimum="-60.000000" maximum="20.000000"  />
@@ -33,10 +34,11 @@
   </plugin>
   <plugin backend="LV2" name="String machine stereo chorus" category="Effect" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus-stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.web.AudioPluginWebViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v1' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
     </extensions>
     <parameters xmlns='urn://androidaudioplugin.org/extensions/parameters'>
       <parameter id="4" name="Enabled" default="1"   type="boolean">
@@ -66,11 +68,12 @@
   </plugin>
   <plugin backend="LV2" name="String machine" category="Instrument" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-mk2" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.web.AudioPluginWebViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/presets/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v1' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/presets/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
     </extensions>
     <parameters xmlns='urn://androidaudioplugin.org/extensions/parameters'>
       <parameter id="2" name="Events Input"     />
