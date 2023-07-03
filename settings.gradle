@@ -1,2 +1,5 @@
-rootProject.name = 'aap-lv2-string-machine'
-include ':app'
+rootProject.name = "aap-lv2-string-machine"
+include ":app"
+// Enable these lines if you want to debug androidaudioplugin-lv2
+//include ":androidaudioplugin-lv2"
+//project(":androidaudioplugin-lv2").projectDir = new File("external/aap-lv2/androidaudioplugin-lv2")
