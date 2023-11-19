@@ -1,8 +1,13 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index c2f5bbf..1960f7f 100644
+index c2f5bbf..307a7e2 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -9,18 +9,18 @@ dpf_add_plugin(string-machine
+@@ -5,22 +5,22 @@ add_subdirectory("dpf")
+ 
+ ###
+ dpf_add_plugin(string-machine
+-  TARGETS lv2 vst2
++  TARGETS lv2
    UI_TYPE cairo
    FILES_DSP
      "plugins/string-machine/StringMachinePlugin.cpp"
@@ -33,6 +38,24 @@ index c2f5bbf..1960f7f 100644
    FILES_COMMON
      "plugins/string-machine/StringMachineShared.cpp"
      "plugins/string-machine/StringMachinePresets.cpp"
+@@ -64,7 +64,7 @@ endif()
+ 
+ ###
+ dpf_add_plugin(string-machine-chorus
+-  TARGETS lv2 vst2
++  TARGETS lv2
+   FILES_DSP
+     "plugins/string-machine-chorus/ChorusPlugin.cpp"
+   FILES_COMMON
+@@ -91,7 +91,7 @@ endif()
+ 
+ ###
+ dpf_add_plugin(string-machine-chorus-stereo
+-  TARGETS lv2 vst2
++  TARGETS lv2
+   FILES_DSP
+     "plugins/string-machine-chorus-stereo/StereoChorusPlugin.cpp"
+   FILES_COMMON
 Submodule dpf contains modified content
 diff --git a/dpf/cmake/DPF-plugin.cmake b/dpf/cmake/DPF-plugin.cmake
 index 66b69272..c1204d54 100644

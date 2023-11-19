@@ -1,11 +1,11 @@
 <plugins xmlns="urn:org.androidaudioplugin.core">
   <plugin backend="LV2" name="String machine chorus" category="Effect" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='input' content='audio' name='Audio Input 1' />
@@ -17,11 +17,11 @@
   </plugin>
   <plugin backend="LV2" name="String machine stereo chorus" category="Effect" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus-stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='input' content='audio' name='Audio Input 1' />
@@ -34,12 +34,12 @@
   </plugin>
   <plugin backend="LV2" name="String machine" category="Instrument" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-mk2" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
     <extensions>
-      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/state/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/presets/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v2.1' />
-      <extension uri='urn://androidaudioplugin.org/extensions/midi/v2' />
-      <extension uri='urn://androidaudioplugin.org/extensions/gui/v2' />
+      <extension uri='urn://androidaudioplugin.org/extensions/plugin-info/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/state/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/presets/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/parameters/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/midi/v3' />
+      <extension uri='urn://androidaudioplugin.org/extensions/gui/v3' />
     </extensions>
     <ports>
       <port direction='output' content='audio' name='Audio Output 1' />
