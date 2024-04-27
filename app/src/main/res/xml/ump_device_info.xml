@@ -1,0 +1,6 @@
+<devices>
+    <device name="AAP String Machine [UMP]" manufacturer="androidaudioplugin.org" product="String Machine">
+        <port name="port1" />
+    </device>
+</devices>
+
