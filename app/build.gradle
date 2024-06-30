@@ -5,11 +5,10 @@ plugins {
 
 android {
     namespace 'org.androidaudioplugin.ports.lv2.string_machine'
-    compileSdkPreview = "VanillaIceCream"
+    compileSdk = libs.versions.android.compileSdk.get().toInteger()
     defaultConfig {
         applicationId "org.androidaudioplugin.ports.lv2.string_machine"
-        targetSdk = 34
-        minSdk = 29
+        minSdk = libs.versions.android.minSdk.get().toInteger()
         versionCode 1
         versionName libs.versions.aap.lv2.get()
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
