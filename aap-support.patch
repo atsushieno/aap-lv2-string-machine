@@ -1,5 +1,5 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index c2f5bbf..307a7e2 100644
+index c2f5bbf..43efcfd 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -5,22 +5,22 @@ add_subdirectory("dpf")
@@ -7,7 +7,7 @@ index c2f5bbf..307a7e2 100644
  ###
  dpf_add_plugin(string-machine
 -  TARGETS lv2 vst2
-+  TARGETS lv2
++  TARGETS lv2 #vst2
    UI_TYPE cairo
    FILES_DSP
      "plugins/string-machine/StringMachinePlugin.cpp"
@@ -43,7 +43,7 @@ index c2f5bbf..307a7e2 100644
  ###
  dpf_add_plugin(string-machine-chorus
 -  TARGETS lv2 vst2
-+  TARGETS lv2
++  TARGETS lv2 #vst2
    FILES_DSP
      "plugins/string-machine-chorus/ChorusPlugin.cpp"
    FILES_COMMON
@@ -52,28 +52,13 @@ index c2f5bbf..307a7e2 100644
  ###
  dpf_add_plugin(string-machine-chorus-stereo
 -  TARGETS lv2 vst2
-+  TARGETS lv2
++  TARGETS lv2 #vst2
    FILES_DSP
      "plugins/string-machine-chorus-stereo/StereoChorusPlugin.cpp"
    FILES_COMMON
-Submodule dpf contains modified content
-diff --git a/dpf/cmake/DPF-plugin.cmake b/dpf/cmake/DPF-plugin.cmake
-index 66b69272..c1204d54 100644
---- a/dpf/cmake/DPF-plugin.cmake
-+++ b/dpf/cmake/DPF-plugin.cmake
-@@ -301,6 +301,7 @@ function(dpf__build_lv2 NAME DGL_LIBRARY MONOLITHIC)
-     endif()
-   endif()
- 
-+  if(false) #ANDROID hack
-   dpf__add_lv2_ttl_generator()
-   add_dependencies("${NAME}-lv2" lv2_ttl_generator)
- 
-@@ -310,6 +311,7 @@ function(dpf__build_lv2 NAME DGL_LIBRARY MONOLITHIC)
-     "$<TARGET_FILE:${NAME}-lv2>"
-     WORKING_DIRECTORY "${PROJECT_BINARY_DIR}/bin/${NAME}.lv2"
-     DEPENDS lv2_ttl_generator)
-+  endif() # end of ANDROID hack
- endfunction()
- 
- # dpf__build_vst2
+diff --git a/dpf b/dpf
+--- a/dpf
++++ b/dpf
+@@ -1 +1 @@
+-Subproject commit f24e5317cd7b57c8ab36b0987ec29a5579cd5dd2
++Subproject commit f24e5317cd7b57c8ab36b0987ec29a5579cd5dd2-dirty
