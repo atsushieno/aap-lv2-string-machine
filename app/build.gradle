@@ -15,7 +15,7 @@ android {
 
         externalNativeBuild {
             cmake {
-                arguments "-DANDROID_STL=c++_shared", "-DAAP_ENABLE_ASAN=" + (enable_asan ? "1" : "0")
+                arguments "-DCMAKE_BUILD_TYPE=RelWithDebInfo", "-DANDROID_STL=c++_shared", "-DAAP_ENABLE_ASAN=" + (enable_asan ? "1" : "0")
             }
         }
     }
