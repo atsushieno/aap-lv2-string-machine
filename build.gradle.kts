@@ -1,22 +1,20 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.android.library) apply false
-    alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.compose.compiler) apply false
-    alias(libs.plugins.dokka) apply false
-    id ("maven-publish")
 }
 
 subprojects {
-    ext.enable_asan = false
+    val enable_asan: Boolean by extra(false)
+
     repositories {
         google()
         mavenLocal()
         mavenCentral()
-        maven { url "https://jitpack.io" }
+        maven ("https://jitpack.io")
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
 }
