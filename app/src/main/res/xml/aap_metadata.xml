@@ -1,6 +1,6 @@
 <plugins xmlns="urn:org.androidaudioplugin.core">
   <plugin backend="LV2" name="String machine chorus" category="Effect" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
-    <extensions bom="0.12.0" />
+    <extensions bom="0.12.1" />
     <ports>
       <port direction='input' content='audio' name='Audio Input 1' />
       <port direction='output' content='audio' name='Audio Output 1' />
@@ -10,7 +10,7 @@
     </ports>
   </plugin>
   <plugin backend="LV2" name="String machine stereo chorus" category="Effect" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-chorus-stereo" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
-    <extensions bom="0.12.0" />
+    <extensions bom="0.12.1" />
     <ports>
       <port direction='input' content='audio' name='Audio Input 1' />
       <port direction='input' content='audio' name='Audio Input 2' />
@@ -21,7 +21,7 @@
     </ports>
   </plugin>
   <plugin backend="LV2" name="String machine" category="Instrument" developer="Jean Pierre Cimalando" unique-id="lv2:http://jpcima.sdf1.org/lv2/string-machine-mk2" library="libandroidaudioplugin-lv2.so" entrypoint="GetAndroidAudioPluginFactoryLV2Bridge" gui:ui-view-factory="org.androidaudioplugin.ui.compose.ComposeAudioPluginViewFactory" xmlns:gui="urn://androidaudioplugin.org/extensions/gui" >
-    <extensions bom="0.12.0" />
+    <extensions bom="0.12.1" />
     <ports>
       <port direction='output' content='audio' name='Audio Output 1' />
       <port direction='output' content='audio' name='Audio Output 2' />
